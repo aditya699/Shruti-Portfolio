@@ -1,0 +1,86 @@
+:root {
+  --primary-color: #0070f3;
+  --primary-hover: #005bb5;
+  --background-light: #f9f9f9;
+}
+.contact {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.contact p {
+  margin: 0.5rem 0;
+  
+}
+
+.contact a {
+ color: rgb(23, 222, 205);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.contact a:hover {
+  color: var(--primary-hover);
+  text-decoration: underline;
+}
+
+.formContainer {
+  max-width: 600px;
+  margin: 2rem auto;
+  text-align: left;
+}
+
+.formContainer h3 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  color: rgb(23, 222, 205);
+}
+
+.form {
+  display: grid;
+  gap: 1rem;
+}
+
+.form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  color: var(--text-dark);
+}
+
+.form input,
+.form textarea {
+  margin-top: 0.5rem;
+  padding: 0.75rem;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius);
+  font-size: 1rem;
+}
+
+.submitButton {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background-color: rgb(23, 222, 205);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+  justify-self: start;
+  transition: background-color 0.2s ease;
+}
+
+.submitButton:hover {
+  background-color: var(--primary-hover);
+}
+
+.address {
+  margin-top: 2rem;
+  color: var(--text-medium);
+}
+
+.address h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-dark);
+}

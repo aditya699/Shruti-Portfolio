@@ -1,0 +1,76 @@
+.projects {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+                  
+.projects h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: rgb(23, 222, 205);
+}
+
+.projectGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.projectCard {
+  background: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.projectCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.projectImage {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+
+  /* fixed border */
+  border: 5px solid white;
+  border-radius: 0.5rem;
+  box-sizing: border-box;  /* ensures the border is inside the allotted width */
+}
+
+.projectInfo {
+  padding: 1rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.projectInfo h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.25rem;
+}
+.projectInfo a{
+  color: black;
+}
+
+.projectInfo p {
+  flex: 1;
+  margin: 0 0 1rem;
+  color: #555;
+}
+
+.projectLink {
+  text-decoration: none;
+  font-weight: 500;
+  color: #0070f3;
+  transition: color 0.2s;
+}
+
+.projectLink:hover {
+  color: #0051a3;
+}
