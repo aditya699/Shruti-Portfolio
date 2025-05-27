@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import styles from '../styles/Navbar.module.css';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   const [theme, setTheme] = useState('dark');
@@ -15,11 +16,11 @@ function Navbar() {
   return (
     <nav className={styles.navbar}>
       <div className={styles.links}>
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-        <a href="/projects">Projects</a>
-        <a href="/experience">Experience</a>
-        <a href="/contact">Contact</a>
+        <Link to="/">Home</Link>
+        <Link to="/About">About</Link>
+        <Link to="/Projects">Projects</Link>
+        <Link to="/Experience">Experience</Link>
+        <Link to="/Contact">Contact</Link>
       </div>
       <button onClick={toggleTheme} className={styles.toggleButton}>
         {theme === 'dark' ? '☀️' : '🌙'}

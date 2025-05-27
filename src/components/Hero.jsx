@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { useTypewriter } from 'react-simple-typewriter';
 import { useInView } from 'react-intersection-observer';
 import styles from '../styles/Hero.module.css';
+import { Link } from 'react-router-dom';
 
 function Hero() {
   const { ref, inView } = useInView({ triggerOnce: false });
@@ -24,13 +25,13 @@ function Hero() {
       ref={ref}
     >
       <div className={styles.glow}></div>
-      <h1>Hi, I’m Shrutika Soni</h1>
+      <h1>Hi, I'm Shrutika Soni</h1>
       <h2>
         {inView ? text : ''}<span className={styles.cursor}>|</span>
       </h2>
-      <a href="/projects" className={styles.cta}>
+      <Link to="/Projects" className={styles.cta}>
         Check out my work
-      </a>
+      </Link>
       <div className={styles.additional}>
         <ul>
           <li>Started development journey during college academics</li>
