@@ -6,26 +6,26 @@ function Projects() {
       name: 'Personal - Portfolio',
       desc: 'Personal site built with React + Vite.The goal of this project was to showcase my technical skills, projects and background in an interactive and modern interface. One of the visually appealing features I implemented was the animated particle background using the react-tsparticles library. ',
       link: 'https://github.com/ShrutikaSoni/Portfolio',
-      image: '/Portfolio.jpeg',
+      image: 'Portfolio.jpeg',
     },
     {
       name: 'Deep Analysis',
       desc: 'An AI-powered CSV analysis platform using React.js and Tailwind CSS.Implemented responsive UI components for file uploads, chat interface and session management.Integrated frontend with FastAPI backend via REST APIs to enable real-time data processing and analysis.',
       link: 'https://github.com/ShrutikaSoni/DeepAnalysis',
-      image: '/DeepAnalysis.jpeg',
+      image: 'DeepAnalysis.jpeg',
     },
     {
       name: 'Crime Management System',
       desc: 'The Crime Management System project is a web-based application designed to assist law enforcement agencies and legal authorities in managing and tracking criminal cases efficiently. It utilizes HTML, CSS, and JavaScript for the frontend, Python for the backend, and SQLite for the database.',
       link: 'https://github.com/ShrutikaSoni/CrimeManagementSystem',
-      image: '/CrimeSystem.jpeg',
+      image: 'CrimeSystem.jpeg',
     }
     ,
     {
       name: 'hrfirst.ai',
       desc: 'A web application that helps HR professionals manage their candidates and streamline their hiring process. It will automatically extract and organize all important candidate information.Get insights on candidate pools and make data-driven hiring decisions.',
       link: ' https://github.com/ShrutikaSoni/hrfirst.ai',
-      image: '/hrfirst.ai.jpeg',
+      image: 'hrfirst.ai.jpeg',
     }
 
   ];
